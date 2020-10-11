@@ -1,0 +1,10 @@
+input.onGesture(Gesture.Shake, function () {
+    basic.showString("LYDIA")
+    basic.showIcon(IconNames.Giraffe)
+    basic.pause(100)
+    basic.showIcon(IconNames.Heart)
+    basic.pause(100)
+    basic.showString("" + (input.temperature()))
+    basic.pause(100)
+    basic.showIcon(IconNames.Heart)
+})
